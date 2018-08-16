@@ -1,0 +1,19 @@
+<view class="app">
+   <!--头部-->
+   <view class="header">
+     <view></view>
+   </view>
+   <!--banner-->
+   <view class="banner"></view>
+   <!--服务类目-->
+   <view class="server"></view>
+   <!--介绍图片或图文-->
+   <view class=""></view>
+   <!--团购商品-->
+   <view class="group-shopping"></view>
+   <!--视频-->
+   <view class="video"></view>
+   <!--底部技术支持信息-->
+   <view class="footer"></view>
+
+</view>
