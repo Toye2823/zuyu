@@ -1,0 +1,53 @@
+<!--搜索框模块-->
+<template name="searchTem" >
+    <navigator>
+       <view class="searchTem">
+        <view class="search">
+         <input placeholder="{{searchInfo.placeholder}}" value="{{item.value}}" class="searchInput"/>
+         <icon class="aliiconfont icon-ipad"></icon>
+       </view>
+       </view>
+    </navigator>
+</template>
+<!--banner 模板-->
+<template name="bannerTem" >
+    <navigator>
+       <view class="bannerTem">
+      <swiper indicator-dots="{{bannerInfo.indicatorDots}}"
+        autoplay="{{bannerInfo.autoplay}}" interval="{{bannerInfo.interval}}" duration="{{bannerInfo.duration}}" style='height:{{bannerInfo.height}}px'>
+                <block wx:for="{{bannerInfo.imgUrls}}" wx:key="key">
+                  <swiper-item>
+                    <image src="{{item}}" class="slide-image" width="{{bannerInfo.width}}" />
+                  </swiper-item>
+                </block>
+      </swiper>
+      </view>
+    </navigator>
+</template>
+<!--按钮列表模板-->
+<template name="itemListTem">
+     <view class="itemListTem">
+        <view wx:key="item" wx:for="{{serverInfo}}" style="width:{{item.width}}" class="list">
+           <view class="item">
+           <navigator hover-class='false' url="{{item.url}}">
+            <view class="item-img">
+                <image mode="widthFix" src="{{item.imgUrl}}"/>
+            </view>
+            <view class="item-name">{{item.name}}</view>
+            </navigator>
+           </view>
+        </view>
+     </view>
+</template>
+
+<!--联系电话-->
+<template name="PhoneTem">
+  <button  class="phoneTem" open-type="contact">
+    <icon class="aliiconfont icon-kefu3"></icon>
+  </button>
+</template>
+<template name="wxKfTem">
+  <view class="wxkfTem">
+  </view>
+</template>
+<!--微信客服-->

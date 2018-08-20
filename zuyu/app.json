@@ -3,21 +3,15 @@
     "pages/index/index",
     "pages/zone/zone",
     "pages/exam/list/list",
-    "pages/user/user",
-    "pages/user/userInfo",
-    "pages/user/vip",
-    "pages/book/book",
-    "pages/classify/classify",
-    "pages/index/map",
-    "pages/waiter/waiter"
+    "pages/user/user"
 
 
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#CAA268",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "旭晶足浴",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#8a8a8a",
@@ -32,20 +26,20 @@
         "selectedIconPath": "resources/images/home_select.png"
       },
       {
-        "pagePath": "pages/classify/classify",
-        "text": "类目",
+        "pagePath": "pages/zone/zone",
+        "text": "分类",
         "iconPath": "resources/images/fenlei.png",
         "selectedIconPath": "resources/images/fenlei_select.png"
       },
       {
-        "pagePath": "pages/book/book",
-        "text": "预约",
+        "pagePath": "pages/exam/list/list",
+        "text": "在线考试",
         "iconPath": "resources/images/kaoshi.png",
         "selectedIconPath": "resources/images/kaoshi_select.png"
       },
       {
         "pagePath": "pages/user/user",
-        "text": "个人中心",
+        "text": "我的",
         "iconPath": "resources/images/my.png",
         "selectedIconPath": "resources/images/my_select.png"
       }
@@ -55,11 +49,5 @@
     "request": 10000,
     "downloadFile": 10000
   },
-  "plugins": {
-      "tencentVideo": {
-         "version": "1.1.6",
-         "provider": "wxa75efa648b60994b"
-      }
-   },
   "debug": false
 }

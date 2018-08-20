@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.8",
+	"libVersion": "2.2.3",
 	"appid": "wx8c025f88b3f63c44",
 	"projectname": "%E7%87%95%E8%BE%BE%E6%95%99%E8%82%B2",
 	"isGameTourist": false,
@@ -30,12 +30,55 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 7,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "首页",
-					"pathName": "pages/index/index"
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "预订",
+					"pathName": "pages/book/book",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/classify/classify",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "我的",
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "map",
+					"pathName": "pages/index/map",
+					"query": "template/map/map"
+				},
+				{
+					"id": -1,
+					"name": "vip",
+					"pathName": "pages/user/vip",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "userinfo",
+					"pathName": "pages/user/userInfo",
+					"query": ""
+				},
+				{
+					"id": 7,
+					"name": "waiter",
+					"pathName": "pages/waiter/waiter",
+					"query": ""
 				}
 			]
 		}
